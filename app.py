@@ -9,23 +9,24 @@ from dash_iconify import DashIconify
 card1 = dmc.Card(
     children=[
         dmc.CardSection(
-            dmc.Anchor(
-                dmc.Image(
-                    src="https://i.im.ge/2024/01/11/3xIdOh.your-project-filler-1.png",
-                    alt="American Football Oracle GPT",
-                ),
-                href="https://chat.openai.com/g/g-RWX3i8Zfr-american-football-oracle",
-                target="_blank"
-            ),
+        #     # dmc.Anchor(
+        #     #     dmc.Image(
+        #     #         src="https://i.im.ge/2024/01/11/3xIdOh.your-project-filler-1.png",
+        #     #         alt="American Football Oracle GPT",
+        #     #     )
+        #     ,
+        #         # href="https://chat.openai.com/g/g-RWX3i8Zfr-american-football-oracle",
+        #         target="_blank"
+        #     ),
         ),
         dmc.Group(
             [
                 dmc.Text("American Football Oracle", weight=500, size='xl'),
-                html.A(
-                    DashIconify(icon="ion:logo-github", width=30),
-                    href='https://github.com/Coding-with-Adam/Dash-by-Plotly/tree/master/AI/Create-Your-Own-GPT',
-                    target="_blank"
-                )
+                # html.A(
+                #     DashIconify(icon="ion:logo-github", width=30),
+                #     href='https://github.com/Coding-with-Adam/Dash-by-Plotly/tree/master/AI/Create-Your-Own-GPT',
+                #     target="_blank"
+                # )
             ],
             position="apart",
             mt="md",
@@ -46,11 +47,11 @@ card1 = dmc.Card(
 card2 = dmc.Card(
     children=[
         dmc.CardSection(
-            dmc.Anchor(
-                dmc.Image(
-                    src="https://i.im.ge/2024/01/11/3xI4b4.investment-app.png",
-                    alt="dash-app",
-                ),
+            # dmc.Anchor(
+            #     dmc.Image(
+            #         src="https://i.im.ge/2024/01/11/3xI4b4.investment-app.png",
+            #         alt="dash-app",
+            #     ),
                 # href="https://investment-app.onrender.com/",
                 target="_blank"
             ),
@@ -58,11 +59,11 @@ card2 = dmc.Card(
         dmc.Group(
             [
                 dmc.Text("Investment Portfolio", weight=500, size='xl'),
-                html.A(
-                    DashIconify(icon="ion:logo-github", width=30),
-                    # href='https://github.com/Coding-with-Adam/investing-app',
-                    target="_blank"
-                )
+                # html.A(
+                #     DashIconify(icon="ion:logo-github", width=30),
+                #     # href='https://github.com/Coding-with-Adam/investing-app',
+                #     target="_blank"
+                # )
             ],
             position="apart",
             mt="md",
@@ -83,11 +84,11 @@ card2 = dmc.Card(
 card3 = dmc.Card(
     children=[
         dmc.CardSection(
-            dmc.Anchor(
-                dmc.Image(
-                    src="https://i.im.ge/2024/01/11/3xar3p.your-project-filler.png",
-                    alt="dash-app",
-                ),
+            # dmc.Anchor(
+            #     dmc.Image(
+            #         src="https://i.im.ge/2024/01/11/3xar3p.your-project-filler.png",
+            #         alt="dash-app",
+            #     ),
                 href="https://charming-data.com/",
                 target="_blank"
             ),
@@ -95,11 +96,11 @@ card3 = dmc.Card(
         dmc.Group(
             [
                 dmc.Text("Your Project Title", weight=500, size='xl'),
-                html.A(
-                    DashIconify(icon="skill-icons:linkedin", width=30),
-                    # href='https://www.linkedin.com/in/adam-schroeder-17b5a819/',
-                    target="_blank"
-                )
+                # html.A(
+                #     DashIconify(icon="skill-icons:linkedin", width=30),
+                #     # href='https://www.linkedin.com/in/adam-schroeder-17b5a819/',
+                #     target="_blank"
+                # )
             ],
             position="apart",
             mt="md",
